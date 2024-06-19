@@ -1,0 +1,16 @@
+# *
+User-agent: *
+Disallow: /parameter/*
+Disallow: /parameter
+Disallow: /home
+
+# bnf.fr_bot
+User-agent: bnf.fr_bot
+Disallow: /
+
+# Host
+Host: https://gardlist.com
+
+# Sitemaps
+Sitemap: https://gardlist.com/sitemap.xml
+Sitemap: https://gardlist.com/server-sitemap.xml

@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.woff2') format('woff2'),
+         url('fonts/MyCustomFont.woff') format('woff'),
+         url('fonts/MyCustomFont.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+:root {
+    /* --principal: #0A6B64;
+    --principal2: #ffcd00;
+    --principal_vert: #00d664;
+    --transparent_vert: rgba(0, 214, 100, 0.15);
+    --white: #ffffff;
+    --noir: #000;
+    --black2: #484848;
+    --bonVert: #00ffd0;
+
+    --black3: #2a2e54;
+    --black3: #2a2e54;
+    --joelNoir: #060644;
+    --grey: #767676; */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+
+body {
+    /* overflow: hidden; */
+    min-height: 100%;
+    font-family: Bold, Book, ExtraBold, Heavy, Light, Medium, Regular, SemiBold, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    overflow: hidden;
+    overflow: hidden !important;
+    height: 100%;
+    font-size: 93%;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 96%;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+body {
+    /* overflow: auto; */
+    overflow-x: hidden !important;
+    height: 100%;
+}
+
+p,
+span,
+h1,
+h2,
+h4,
+h5 {
+    word-break: break-word;
+}
+
+
+.pointer {
+    cursor: pointer;
+    transition: all .35s ease-in;
+}
+
+.modal-open .modal {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgb(0 0 0/10%);
+}
+
+.modal .modal-content {
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+        visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.fade-in-section-right {
+    opacity: 0;
+    transform: translateX(20vw);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+        visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}
+
+.fade-in-section-right.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.react-images__view img {
+    height: auto;
+    max-height: 900px !important;
+}
