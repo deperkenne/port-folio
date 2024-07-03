@@ -307,3 +307,7 @@ export const Box2 = styled.div`
     font-size: 0.9em;
   }
 `;
+
+export const Link = styled.a`
+text-decoration:none;
+`;

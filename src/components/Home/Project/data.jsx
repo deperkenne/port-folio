@@ -1,11 +1,12 @@
 
 export const projets = [
     {
-      url: "/",
+      url: "https://github.com/deperkenne/port-folio.git",
       img: "port.png",
       title: "Portfolio",
       text: "If you are reading this you are already on my portfolio website. This projects aims to introduce myself and present my skills.",
-      stack: "Typescript - React - Redux - NextJS - ThreeJS- Bootstrap...",
+      stack: "ReactJS - Redux  - Bootstrap...",
+      code:"Through this link, you can directly access my source code on GitHub."
     },
     {
       url: "https://infinite-brushlands-97270.herokuapp.com/",
@@ -15,16 +16,7 @@ export const projets = [
       stack: "Typescript - React - Redux - Semantic UI...",
       offline: true,
     },
-    // { url: 'https://www.gardlist.com', img: 'gardlist.png', title: 'Gardlist client', text: 'Bringing together of private security professionals', stack: 'Typescript - React - Nextjs - NestJS - socketIO - Payment ' },
-    // { url: 'https://www.work.gardlist.com', img: 'gardlist-work.png', title: 'Gardlist for partner', text: 'E-signature,PDF generator,PDF to WYSWYG, AWS', stack: 'Typescript - React - Nextjs - NestJS - socketIO - Payment ' },
-    //   {
-    //     url: "https://play.google.com/store/apps/details?id=com.gardlist",
-    //     img: "gardlist-app.jpg",
-    //     title: "Gardlist application",
-    //     text: "E-signature,PDF generator,PDF to WYSWYG, AWS",
-    //     stack: "React-native, Redux",
-    //     images: { link: "gardlist", number: 10 },
-    //   },
+    
     {
       url: "https://guarded-island-65590.herokuapp.com/",
       img: "nanda.png",

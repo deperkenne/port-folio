@@ -123,12 +123,13 @@ export const ContainAllRight = styled.div`
 export const ContainAllRightRow = styled.div`
   position: relative;
   width: 100%;
+  height:939px;
   /* min-height:100vh;  */
   background-color: #150c21;
   border-radius: 2px;
   & > .profile-container {
-    width: 200px; /* ou toute autre taille souhaitée */
-    height: 200px; /* la même valeur que la largeur pour un cercle parfait */
+    width: 176px; /* ou toute autre taille souhaitée */
+    height: 195px; /* la même valeur que la largeur pour un cercle parfait */
     overflow: hidden; /* s'assure que tout débordement est caché */
     display: flex;
     justify-content: center;
@@ -154,13 +155,14 @@ display:flex;
 flex-direction:column;
 justify-content: center;
 align-items: center;
+color:white;
 
 `;
 
 export const Intermediare = styled.div`
   position: relative;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   padding-left: 4.25rem;
   font-size: 1.25rem;
   line-height: 1.4;

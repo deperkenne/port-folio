@@ -90,16 +90,7 @@ export default function MyComponentHeader() {
                     <span>Menu <FiMenu /> </span>
                 </StyleDropDownToogle>
                
-                <StyleDropDownMenu>
-                    {data.map((item, index) => {
-                        return (
-                            <StyleDropDownItem key={index} style={{ paddingRight: '3em' }}
-                                onClick={(e) => { navigateTo(e, item.url) }} href={"#" + item.url}>
-                                {item.title}
-                            </StyleDropDownItem>
-                        )
-                    })}
-                </StyleDropDownMenu>
+               
             </StyleDropDown>
         </>
     )

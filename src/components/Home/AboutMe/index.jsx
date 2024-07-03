@@ -42,16 +42,15 @@ export default function AboutMe() {
             <TitleAbout>
               My name is <span>Kenne Tchofo De perceverance</span>, 34 years old,
               born in Cameroon and I am a{" "}
-              <span>Fullstack developer</span>,fluent in{" "}
+              <span>Junior Java Developer </span>,fluent in{" "}
               <span>French and German</span> . Through my curiosity, I
               am passionate about  application <span>development </span>. This 
               curiosity has also led me deeper into field of <span>software engineering</span>{" "}
-              particularly in development of applications and digital products{" "}
+              particularly in backend development and RESTful API design{" "}
               <span></span>, which I really
               enjoy. Learning new things to  expand my knowledge, to produce{" "}
               <span>high quality work</span>, and to understand and implement
-              the different processes involved in creating digital products are
-              my biggest motivations.
+              the different processes involved in creating scalable software are my biggest motivation.
             </TitleAbout>
             <Slogan>Learn. Do. Teach.</Slogan>
           </StyledContainer>
@@ -84,36 +83,6 @@ export default function AboutMe() {
       <FadeInSection>
         <ContainAbout style={{ margin: 0, marginBottom: "5rem" }}>
           <StyledContainer fluid={"xxl"}>
-            <Intermediare>
-              {" "}
-              <span></span>For the community.
-            </Intermediare>
-            <ContainStyledDiv>
-              <StyledDiv>
-                <div>
-                  <span>{"For the open source"}</span>
-                </div>
-                <div style={{ marginTop: "2em" }}>
-                  <StyledP2>
-                    <span>
-                      {
-                        "I have created for the community two extensions on Visual studio code"
-                      }
-                    </span>{" "}
-                  </StyledP2>
-                  <StyledP2>
-                    - <span>Translator extractor:</span> extract text content
-                    from the file (JS,JSX,TS,TSX) to the JSON file (fr.JSON or
-                    de.JSON){" "}
-                  </StyledP2>
-                  <StyledP2>
-                    - <span>Create-react-native-folder-component:</span> create
-                    a folder that already has index.tsx (with an empty hooks
-                    components) ,a SRC folder ,etc...{" "}
-                  </StyledP2>
-                </div>
-              </StyledDiv>
-            </ContainStyledDiv>
           </StyledContainer>
         </ContainAbout>
       </FadeInSection>
@@ -126,24 +95,20 @@ export default function AboutMe() {
               <span></span> What I bring you.
             </Intermediare>
             <TitleAbout>
-              You will benefit from my<span> 6 years of experience</span> in
-              developing digital products and applications{" "}
-              <span>
-                around the world <i>(</i>Paris, Nurnberg, Berlin<i>)</i> .
-              </span>
+              You will benefit from my<span> experience</span> in
+              developing software solutions and applications{" "}.
               You will benefit from my startup spirit in your company as well as
               from an
               <span>
                 {" "}
-                extremely flexible developer, fluent in French, English and
+                extremely flexible developer, fluent in French,  and
                 German
               </span>
               , having a team spirit, and liking to learn new technologies
               depending on the projects. For example, I have learned in the past
               the following technologies{" "}
               <span>
-                <i>(</i>RUST, Python, C<i>++</i>, Unity, Blender, 3D<i>-</i>
-                software, solidity<i>)</i> for project needs
+                <i>(</i>Python, C-Sharp,JavaScript<i>)</i> for project needs
               </span>
             </TitleAbout>
           </StyledContainer>

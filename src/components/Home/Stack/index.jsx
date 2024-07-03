@@ -46,13 +46,13 @@ function Stack() {
                                         <img src={'/stacks/front.png'} />
                                     </div>
                                     <h2>Front-end Development</h2>
-                                    <h4>HTML5, CSS3, JAVASCRIPT, TYPESCRIPT</h4>
+                                    <h4>HTML5, CSS3, JAVASCRIPT</h4>
                                     <p>List of tools i use on the front-end</p>
-                                    <h5>ReactJS, VueJS, JQUERY, NextJS, THREEJS</h5>
-                                    <h5>Bulma, Bootstrap, Semantic UI</h5>
-                                    <h5>Styled components, Tailwind CSS, Sass </h5>
-                                    <h5>Flow, TYPESCRIPT, Eslint</h5>
-                                    <h5>Gitlab, Github</h5>
+                                    <h5>ReactJS</h5>
+                                    <h5> Bootstrap</h5>
+                                    <h5>Styled components</h5>
+                                    <h5> Eslint</h5>
+                                    <h5> Github</h5>
                                 </ContainElement>
                             </StyledCol>
 
@@ -62,12 +62,12 @@ function Stack() {
                                         <img src={'/stacks/back.png'} />
                                     </div>
                                     <h2>Back-end Development</h2>
-                                    <h4>JAVASCRIPT, PYTHON, RUST</h4>
+                                    <h4>JAVA</h4>
                                     <p>List of tools i use on the back-end</p>
-                                    <h5>Nodejs, Express, NestJS, NextJS API </h5>
-                                    <h5>Typescript</h5>
-                                    <h5>MongoDB, TypeORM</h5>
-                                    <h5>Gitlab, Github</h5>
+                                    <h5>MySQL,PostgreSQL</h5>
+                                    <h5>Spring Boot</h5>
+                                    <h5>Hibernate</h5>
+                                    <h5>Github</h5>
                                 </ContainElement>
                             </StyledCol>
 
@@ -78,28 +78,10 @@ function Stack() {
                                     </div>
                                     <h2>Devops (average skills) </h2>
                                     <h4>Docker, Kubernetes</h4>
-                                    <p>List of tools i use on the Mobile Development</p>
-                                    <h5>CI/CD pipeline with github actions </h5>
-                                    <h5>Skaffold </h5>
-                                    <h5>Google Cloud SDK</h5>
                                 </ContainElement>
                             </StyledCol>
 
-                            <StyledCol xl={4} lg={4} md={4}>
-                                <ContainElement>
-                                    <div>
-                                        <img src={'/stacks/mobile.png'} />
-                                    </div>
-                                    <h2>Mobile Development</h2>
-                                    <h4>React-Native, ReactJS</h4>
-                                    <p>List of tools i use on the Mobile Development</p>
-                                    <h5>Java, Swift (for native components)  </h5>
-                                    <h5>Redux  </h5>
-                                    <h5>Typescript</h5>
-                                    <h5>MySqlite, WatermelonDB, Realm</h5>
-                                    <h5>Gitlab, Github</h5>
-                                </ContainElement>
-                            </StyledCol>
+                          
                         </StyledRow>
                     </Container>
 
@@ -145,12 +127,11 @@ function Stack() {
 
                                     <ContainLanguage>
                                         <p>English</p>
-                                        <h5>Fluent</h5>
+                                        <h5>Basic</h5>
                                         <div>
                                             <BsStarFill />
                                             <BsStarFill />
-                                            <BsStarFill />
-                                            <BsStarFill />
+                            
                                         </div>
                                     </ContainLanguage>
                                 </StyledCol>
@@ -184,7 +165,7 @@ function Stack() {
                 <div>
                     <p>Thanks for reaching the bottom of this page. If you want to learn more about me, are interested in a collaboration or have any feedback, just let me know.</p>
                 </div>
-                <Button href="mailto:yan_noudou@yahoo.fr" >Let<span>'</span>s get in touch</Button>
+                <Button href="mailto:tchofodep@gmail.com" >Let<span>'</span>s get in touch</Button>
                 <div style={{ height: 20 }} ></div>
                
             </Finish>

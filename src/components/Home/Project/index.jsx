@@ -3,11 +3,12 @@ import { useState } from "react";
 import { Container, } from "react-bootstrap";
 import { Intermediare } from "../LeftBox/LeftBox.styled";
 import { projets } from "./data";
-import { ContainProject, TitleProject, Box2, } from "./Project.styled";
+import { ContainProject, TitleProject, Box2,Link } from "./Project.styled";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import FadeInSection from "/src/components/Home/FadeInSection";
 import { StyledRow, StyledCol } from "../helpers/StyledComponents";
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 export default function Project() {
     const [typ, setTyp] = useState('web');
@@ -15,19 +16,11 @@ export default function Project() {
         <ContainProject id='projects' >
             <FadeInSection>
                 <Container fluid={'xxl'} >
-                    {/* <ContainRight>
-                        <div>
-                            <div  >
-                                <StyledSpan left={(typ === 'mobil') ? '100px' : '0px'} >{(typ === 'mobil') ? 'Mobile' : 'Website'}</StyledSpan>
-                                <span onClick={() => settyp('web')} >Website</span>
-                                <span onClick={() => settyp('mobil')}  >Mobile</span>
-                            </div>
-                        </div>
-                    </ContainRight> */}
+                  
                     <Intermediare> <span></span> Projects</Intermediare>
 
-                    <TitleProject>This section presents some personals projects I've worked on. The list is not exhaustive though. The following three
-                        projects are available on internet. In case of interest on seeing the source code please let me a message.</TitleProject>
+                    <TitleProject>This section presents some personals projects I've worked on. The list is not exhaustive though. The source code for the following three projects is available through GitHub. 
+                        Just click on 'Open' for each project to see the source code." </TitleProject>
 
                     <StyledRow>
                         {projets.map((item, ind) => {
@@ -47,11 +40,12 @@ export default function Project() {
 
 const BoxDetailSecond = ({ num }) => {
     const [openLightBox, setOpenLightbox] = useState(null);
-    const { img, stack, text, title, offline, url, images } = projets[num];
+    const { img, stack, text, title, offline, url, images,code } = projets[num];
 
     function onClick() {
         if (images) {
             setOpenLightbox(images);
+
             return false;
         }
         Router.push(url);
@@ -71,8 +65,9 @@ const BoxDetailSecond = ({ num }) => {
                     <div>
                         <div style={{ height: images ? '185%' : '100%', backgroundSize: images ? 'contain' : 'cover' }}>
                             <span>
-                                <span>{images ? 'See more' : 'Open project'}</span>
+                                <span>{images ? 'See more' : <Link href={url}>Open project</Link>}</span>
                             </span>
+                        
                         </div>
                     </div>
                 </div>
@@ -89,7 +84,9 @@ const BoxDetailSecond = ({ num }) => {
                         </span>
                     </h4>
                     <p>{text}</p>
+                    <p>{code}</p>
                     <h5>{stack}</h5>
+
                 </div>
             </Box2>
         </>

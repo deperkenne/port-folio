@@ -168,7 +168,7 @@ export const InsideContent = styled.div`
 
  `
 
- export const StyledImg = styled(Image)`
+ export const StyledImg = styled.img`
   height: 29px;
   @media (max-width: 600px) {
     height: 18px;
@@ -431,7 +431,7 @@ export const StyleDropDownToogle = styled(Dropdown.Toggle)`
   right: 25px;
   top: 0.938rem;
   z-index: 8;
-  outline: none;
+
   padding: 8px 25px;
   border-radius: 30px;
   font-family: gbold;
@@ -446,7 +446,7 @@ export const StyleDropDownToogle = styled(Dropdown.Toggle)`
     box-shadow: rgb(98 129 255 / 22%) 0px 48px 100px !important;
   }
   :after {
-    display: none;
+    
    
   }
   & > span {
