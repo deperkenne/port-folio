@@ -147,6 +147,8 @@ export const ProfileImage = styled.img`
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+ 
+
 `;
 
 

@@ -59,7 +59,7 @@ function Stack() {
                             <StyledCol xl={4} lg={4} md={4}>
                                 <ContainElement>
                                     <div>
-                                        <img src={'/stacks/back.png'} />
+                                        <img src={'./stacks/back.png'} />
                                     </div>
                                     <h2>Back-end Development</h2>
                                     <h4>JAVA</h4>
