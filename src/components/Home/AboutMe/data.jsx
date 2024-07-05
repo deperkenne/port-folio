@@ -55,7 +55,6 @@ export const data = [
       text: "Project: Enhancement and Extension of the Billing System for Company: NedFligs",
       place: " Fürth, Germany",
       toDo: [
-        "Studied chapter 1 of Martin Fowler's book to understand the structure and logic of the existing pricing and billing system",
         "Wrote unit tests for each non-private method using JUnit, ensuring high test coverage",
         "Used Mockito and specific test classes to isolate tests",
         "Adding new features to the existing system with complete documentation and tests",

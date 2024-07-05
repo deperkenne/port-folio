@@ -5,7 +5,8 @@ import { Intermediare } from "../LeftBox/LeftBox.styled";
 import { projets } from "./data";
 import { ContainProject, TitleProject, Box2,Link } from "./Project.styled";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import FadeInSection from "/src/components/Home/FadeInSection";
+/*import FadeInSection from "/src/components/Home/FadeInSection";*/
+import FadeInSection from "../FadeInSection";
 import { StyledRow, StyledCol } from "../helpers/StyledComponents";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -60,7 +61,7 @@ const BoxDetailSecond = ({ num }) => {
                     title={title}
                 />
             ) : null}
-            <Box2 img={'./projects/' + img}>
+            <Box2 img={'/projects/' + img}>
                 <div className="cover" onClick={onClick}>
                     <div>
                         <div style={{ height: images ? '185%' : '100%', backgroundSize: images ? 'contain' : 'cover' }}>

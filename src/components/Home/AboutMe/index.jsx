@@ -1,4 +1,5 @@
-import FadeInSection from "/src/components/Home/FadeInSection"
+/*import FadeInSection from "/src/components/Home/FadeInSection"*/
+import FadeInSection from "../FadeInSection";
 import { Container, Row, Col } from "react-bootstrap";
 import { Intermediare } from "../LeftBox/LeftBox.styled";
 import {
