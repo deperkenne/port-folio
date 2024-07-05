@@ -61,7 +61,7 @@ const BoxDetailSecond = ({ num }) => {
                     title={title}
                 />
             ) : null}
-            <Box2 img={'/projects/' + img}>
+            <Box2 img={'../../../../projects/' + img}>
                 <div className="cover" onClick={onClick}>
                     <div>
                         <div style={{ height: images ? '185%' : '100%', backgroundSize: images ? 'contain' : 'cover' }}>
