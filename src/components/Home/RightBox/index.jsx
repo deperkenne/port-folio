@@ -19,7 +19,7 @@ export default function RightBox() {
     return (
         <ContainAllRightRow >
             <div className="profile-container" >
-              <ProfileImage src="./imageCv/cvP.png"/>
+              <ProfileImage src="../../../../imageCv/cvP.png"/>
             </div>
             <Intermediare/>
             <ProfileInfoCv>
