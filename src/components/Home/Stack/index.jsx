@@ -32,7 +32,7 @@ function Stack() {
                                 <Slogan>Skills, </Slogan>
                                 <Slogan>Dev Stack.</Slogan>
                                 <Intermediare> <span></span> This section shows a larger list of technologies and tools I use on my different projects,as well
-                                    as for my personal learning,including Docker and Kubernetes.
+                                    as for my personal learning,including Docker and Kubernetes
                                     As the following illustration shows, there are still a lot to discover
                                     and I'm looking forward to learn new things</Intermediare>
                             </Col>
