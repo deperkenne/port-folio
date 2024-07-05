@@ -1,3 +1,5 @@
+
+/*
 # *
 User-agent: *
 Disallow: /parameter/*
@@ -14,3 +16,4 @@ Host: https://gardlist.com
 # Sitemaps
 Sitemap: https://gardlist.com/sitemap.xml
 Sitemap: https://gardlist.com/server-sitemap.xml
+*/
