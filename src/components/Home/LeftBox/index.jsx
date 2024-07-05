@@ -71,7 +71,7 @@ export function Logo() {
                                                                     (item.url === 'stacks') ? "rotate(20deg)" :
                                                                         'rotate(0deg)'
                                                         }} >
-                                                            <Image alt={item.title} height={'85px'} width={'85px'} src={"../../../../img/" + item.icon} />
+                                                            <Image alt={item.title} height={'85px'} width={'85px'} src={"./img/" + item.icon} />
                                                         </span>
                                                         <p>{item.title}</p>
                                                     </div>
