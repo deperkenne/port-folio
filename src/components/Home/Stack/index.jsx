@@ -43,7 +43,7 @@ function Stack() {
                             <StyledCol xl={4} lg={4} md={4} >
                                 <ContainElement>
                                     <div>
-                                        <img src={'/stacks/front.png'} />
+                                        <img src={'./stacks/front.png'} />
                                     </div>
                                     <h2>Front-end Development</h2>
                                     <h4>HTML5, CSS3, JAVASCRIPT</h4>
@@ -74,7 +74,7 @@ function Stack() {
                             <StyledCol xl={4} lg={4} md={4} >
                                 <ContainElement>
                                     <div>
-                                        <img src={"/stacks/dev.png"} />
+                                        <img src={"./stacks/dev.png"} />
                                     </div>
                                     <h2>Devops (average skills) </h2>
                                     <h4>Docker, Kubernetes</h4>
