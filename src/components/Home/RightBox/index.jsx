@@ -23,7 +23,7 @@ export default function RightBox() {
             </div>
             <Intermediare/>
             <ProfileInfoCv>
-                <h1>Kontakt</h1>
+                <h1>Contact</h1>
                 {
                     data[1].Kontakt.map((item ,index)=>{
                         
@@ -31,7 +31,7 @@ export default function RightBox() {
                     })
 
                 }
-                <h1>Persönliches</h1>
+                <h1>Personal</h1>
                 {
                     data[2].Persönliches.map((item ,index)=>{
                         
