@@ -52,7 +52,12 @@ export default function AboutMe() {
               enjoy. Learning new things to  expand my knowledge, to produce{" "}
               <span>high quality work</span>, and to understand and implement
               the different processes involved in creating scalable software are my biggest motivation.
+
+              I completed my undergraduate studies at the University of Bamberg in Germany, where I earned a {" "}
+              <span> Bachelor's degree in Wirtschaftsinformatik (Business Informatics)</span>. 
+              You can access my online CV to learn more about my background and projects at [https://deperkenne.github.io/port-folio].
             </TitleAbout>
+
             <Slogan>Learn. Do. Teach.</Slogan>
           </StyledContainer>
         </ContainAbout>
