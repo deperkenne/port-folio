@@ -18,7 +18,7 @@ export const projets = [
     },
     
     {
-      url: "https://github.com/deperkenne",
+      url: "https://github.com/deperkenne/integration_unitest",
       img: "junittest.png",
       title: "Enhancement and Extension of the Billing System",
       text: "To realize this application, I studied Chapter 1 of Martin Fowler's book to understand the structure and logic of the existing pricing and billing system. ",
