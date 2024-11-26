@@ -27,10 +27,19 @@ export const projets = [
     },
     {
       url:"https://github.com/deperkenne/",
-      img: "restapi.png",
+      img:"File.png" ,
       title: "Building a Java REST API",
       text: " ",
       stack: "Java - JAX-RS",
+     
+    },
+
+    {
+      url:"https://github.com/deperkenne/java.nio.git/",
+      img: "restapi.png",
+      title: "Studies and processing of files",
+      text: " The project involves recursively traversing all files with a specific extension, searching for lines containing a specific word, formatting those lines, and saving them into an output file.",
+      stack: "Java ",
      
     },
   
