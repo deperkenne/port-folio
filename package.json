@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
   "name": "port-folio-main",
   "version": "1.0.0",
   "main": "index.js",
@@ -12,36 +12,6 @@
   "description": "",
   "devDependencies": {
     "gh-pages": "^6.2.0"
-=======
-  "homepage": "https://deperkenne.github.io/port-folio/",
-  "name": "reactpro",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-    
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.10.2",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.2.1",
-    "react-images": "^1.2.0-beta.7",
-    "react-router-dom": "^6.24.1",
-    "styled-components": "^6.1.11"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "gh-pages": "^6.1.1",
-    "vite": "^4.1.0"
->>>>>>> 512d05cea2929614209c41164678b3d82f8cdf05
   }
+ 
 }
