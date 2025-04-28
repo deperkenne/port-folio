@@ -51,11 +51,12 @@ export function Logo() {
                            
                                 <div className="content" >
                                     <InsideContent>
+                                
                                         <h1>Hello,</h1>
                                         <h1>I<i>'</i>m De perceverance Kenne Tchofo</h1>
                                     </InsideContent>
                                     <InsideContentP>
-                                        <p>I'm a <span>Junior Java developer</span>. I love to build <span>apps, RESTful APIs and backend systems</span>  learn <span>things</span> about the <span>software development.</span></p>
+                                        <p>I'm a <span>Data Engineer</span>. with expertise in managing and processing large-scale data. <span> I have hands-on experience with technologies such as Apache Spark , Kafka, Databricks,Microsoft Azure.</span> </p>
                                     </InsideContentP>
                                     <Intermediare> <span></span> Menu</Intermediare>
             

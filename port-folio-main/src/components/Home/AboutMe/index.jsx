@@ -40,24 +40,31 @@ export default function AboutMe() {
               {" "}
               <span></span> About me
             </Intermediare>
-            <TitleAbout>
-              My name is <span>Kenne Tchofo De perceverance</span>, 34 years old,
-              born in Cameroon and I am a{" "}
-              <span>Junior Java Developer </span>,fluent in{" "}
-              <span>French and German</span> . Through my curiosity, I
-              am passionate about  application <span>development </span>. This 
-              curiosity has also led me deeper into field of <span>software engineering</span>{" "}
-              particularly in backend development and RESTful API design{" "}
-              <span></span>, which I really
-              enjoy. Learning new things to  expand my knowledge, to produce{" "}
-              <span>high quality work</span>, and to understand and implement
-              the different processes involved in creating scalable software are my biggest motivation.
+              <TitleAbout>
+                <p>
+                  I am <strong>Kenne Tchofo De Perseverance</strong>, a certified <strong>Data Engineer & ETL Associate</strong> with expertise in building scalable data pipelines. Fluent in both <strong>French (native)</strong> and <strong>German (C1)</strong>
+                </p>
 
-              I completed my undergraduate studies at the University of Bamberg in Germany, where I earned a {" "}
-              <span> Bachelor's degree in Wirtschaftsinformatik (Business Informatics)</span>. 
-              You can access my online CV to learn more about my background and projects at [https://deperkenne.github.io/port-folio].
+                <p>
+                  My core focus lies in <strong>modern data architectures</strong>, particularly:
+                  <ul>
+                    <li>Designing efficient ETL/ELT processes</li>
+                    <li>Implementing cloud-based solutions </li>
+                    <li>Developing maintainable data products with Databricks</li>
+                  </ul>
+                </p>
+
+                <p>
+                  Holding a <strong>Bachelor's in Wirtschaftsinformatik</strong> from the University of Bamberg, I combine business acumen with technical depth. My approach emphasizes:
+                  <ul>
+                    <li>Test-driven development for reliable pipelines</li>
+                    <li>Cost-optimized cloud implementations</li>
+                    <li>Clear documentation and knowledge sharing</li>
+                  </ul>
+                </p>
+
+              
             </TitleAbout>
-
             <Slogan>Learn. Do. Teach.</Slogan>
           </StyledContainer>
         </ContainAbout>
@@ -68,14 +75,11 @@ export default function AboutMe() {
           <StyledContainer fluid={"xxl"}>
             <Intermediare>
               {" "}
-              <span></span> Curriculum vitae
+              <span></span> Professional experience
             </Intermediare>
             <div>
-              <BoxCv right index={6} />
+              <BoxCv right index={4} />
             </div>
-
-            <BoxCv right index={5} />
-            <BoxCv right index={4} />
             <BoxCv right index={3} />
             <BoxCv right index={2} />
             <div style={{ marginTop: 39 }}>
@@ -102,7 +106,7 @@ export default function AboutMe() {
             </Intermediare>
             <TitleAbout>
               You will benefit from my<span> experience</span> in
-              developing software solutions and applications{" "}.
+              developing ETL and software solutions {" "}.
               You will benefit from my startup spirit in your company as well as
               from an
               <span>
@@ -114,7 +118,7 @@ export default function AboutMe() {
               depending on the projects. For example, I have learned in the past
               the following technologies{" "}
               <span>
-                <i>(</i>Python, C-Sharp,JavaScript<i>)</i> for project needs
+                <i>(</i>Databricks, Microsoft Azure ,Java,DevOps tools....<i>)</i> for project needs
               </span>
             </TitleAbout>
           </StyledContainer>
@@ -127,9 +131,9 @@ export default function AboutMe() {
 
 
 export function BoxCv({ index }) {
-    if (!data[index]) {
-        return <div>Invalid index</div>;
-      }
+  if (!data[index]) {
+      return <div>Invalid index</div>;
+    }
   const { dat, place, text, toDo, stacks, tools, note } = data[index];
   return (
     <ContainStyledDiv>

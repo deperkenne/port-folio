@@ -51,9 +51,7 @@ function Stack() {
                                     <p>List of tools i use on the front-end</p>
                                     <h5>ReactJS</h5>
                                     <h5> Bootstrap</h5>
-                                    <h5>Styled components</h5>
-                                    <h5> Eslint</h5>
-                                    <h5> Github</h5>
+                               
                                 </ContainElement>
                             </StyledCol>
 
@@ -63,12 +61,10 @@ function Stack() {
                                         <img src={'./stacks/back.png'} />
                                     </div>
                                     <h2>Back-end Development</h2>
-                                    <h4>JAVA</h4>
+                                    <h4>JAVA,PYTHON</h4>
                                     <p>List of tools i use on the back-end</p>
-                                    <h5>MySQL,PostgreSQL</h5>
-                                    <h5>Spring Boot</h5>
-                                    <h5>Hibernate</h5>
-                                    <h5>Github</h5>
+                                    <h5>SQL Server,PostgreSQL,Mongo Db</h5>
+                                    
                                 </ContainElement>
                             </StyledCol>
 
@@ -77,13 +73,17 @@ function Stack() {
                                     <div>
                                         <img src={"./stacks/dev.png"} />
                                     </div>
-                                    <h2>Devops (average skills) </h2>
-                                    <h4>Docker, Kubernetes</h4>
+                                    <h2>Devops, Cloud & Data Engineering </h2>
+                                    <h4>Docker, Kubernetes,GitHub Action(CI/CD)</h4>
+                                    <h4>Microsoft Azure</h4>
+                                    <h4>DataBricks</h4>
+                                    <h4>Apache Kafka</h4>
+                                    <h4>Apache Airflow</h4>
                                 </ContainElement>
                             </StyledCol>
 
-                          
-                        </StyledRow>
+                        
+                    </StyledRow>
                     </Container>
 
                     {/* {(typeof window !== 'undefined') ? <Canvas hover={mouseOn} /> : null} */}

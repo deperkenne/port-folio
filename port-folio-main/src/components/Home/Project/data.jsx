@@ -5,8 +5,39 @@ export const projets = [
       img: "portfolio.png",
       title: "Portfolio",
       text: "If you are reading this you are already on my portfolio website. This projects aims to introduce myself and present my skills.",
-      stack: "ReactJS - Redux  - Bootstrap...",
-      code:"Through this link, you can directly access my source code on GitHub."
+      stack: "ReactJS , Bootstrap",
+      code:"Click the 'Open Project' link to access my source code directly on GitHub."
+    },
+
+    {
+      url: "https://github.com/deperkenne/DataStream.git",
+      img: "realtime_voting.png",
+      title: "RealTime Voting App",
+      text: "Millisecond latency election monitoring system from ingestion to visualization",
+      stack: "Apache Kafka,python,Pyspark,Spark Structured Streaming,PostgreSQL,Gitaction",
+      code:"Click the 'Open Project' link to access my source code directly on GitHub."
+    },
+
+
+
+    {
+      url: "https://github.com/deperkenne/web_scrapping.git",
+      img: "issuetrackingapp.png",
+      title: "Web scraping",
+      text: "End-to-end data pipeline scraping Lidl's catalog ➞ Optimized storage & processing",
+      stack: " Apache Spark, python, Pyspark,Microsoft Azure Data Lake, Databricks Delta",
+      code:"Click the 'Open Project' link to access my source code directly on GitHub."
+      
+    },
+    
+    {
+      url: "https://github.com/deperkenne/integration_unitest",
+      img: "billingsystem.png",
+      title: "Enhancement and Extension of the Billing System",
+      text:  "Implemented core billing system improvements by applying software engineering best practices from Martin Fowler's patterns. Key features include:\n- Refactored pricing calculation engine for better maintainability\n- Developed comprehensive test suite (JUnit/Mockito) achieving 85% coverage\n- Integrated new payment workflow modules\n- Optimized tax calculation logic for regulatory compliance",
+      stack: "Java , Integration & Unit test ",
+      code:"Click the 'Open Project' link to access my source code directly on GitHub."
+     
     },
     {
       url: "https://github.com/deperkenne/issuetrackingapp.git",
@@ -14,34 +45,12 @@ export const projets = [
       title: "Issue Tracking System",
       text: "Implementation of an Issue Tracking And Developed a user-friendly console interface for system interaction",
       stack: "Java,jackson",
+      code:"Click the 'Open Project' link to access my source code directly on GitHub."
       
     },
     
-    {
-      url: "https://github.com/deperkenne/integration_unitest",
-      img: "junittest.png",
-      title: "Enhancement and Extension of the Billing System",
-      text: "To realize this application, I studied Chapter 1 of Martin Fowler's book to understand the structure and logic of the existing pricing and billing system. ",
-      stack: "Java - Integration & Unit test ",
-     
-    },
-    {
-      url:"https://github.com/deperkenne/",
-      img:"File.png" ,
-      title: "Building a Java REST API",
-      text: " ",
-      stack: "Java - JAX-RS",
-     
-    },
 
-    {
-      url:"https://github.com/deperkenne/java.nio.git/",
-      img: "restapi.png",
-      title: "Studies and processing of files",
-      text: " The project involves recursively traversing all files with a specific extension, searching for lines containing a specific word, formatting those lines, and saving them into an output file.",
-      stack: "Java ",
      
-    },
   
   ];
   

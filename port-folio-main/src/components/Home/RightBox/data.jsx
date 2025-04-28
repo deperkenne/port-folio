@@ -15,9 +15,8 @@ export const data = [
     },
     {
      Persönliches:[
-      "Geboren: 27.08.1989 in Mbouda",
-      "Staatsangehörigkeit: Kamerun",
-      "Familienstand: Ledig"
+      "De perceverance",
+      "Kenne Tchofo",
 
      ]
     },

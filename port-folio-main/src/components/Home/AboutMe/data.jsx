@@ -1,47 +1,14 @@
 export const data = [
     {
-      dat: "May 2014 - Febuary 2016",
-      text: "Deutschkurs",
-      place: "Dortmund, Germany",
-      toDo: [
-        "Deutsche Sprache Niveau C1.",
-      ],
-    },
-    
-    {
-      dat: "September 2016 - September 2017",
-      text: "Studies Economics.",
-      place: "FAU Erlangen-Nürnberg, Germany",
-    },
-
-    {
-      dat: "October 2017 - April 2024",
-      text: "Studies WirtschaftsInformatik.",
-      place: "Bamberg, Germany",
-    },
-    {
-      dat: "December 2023 - May 2023",
-      text: "Internship in the field of automation at Deutronic Electronic GmbH",
-      place: "Landshut/Bayern, Germany",
-      toDo: [
-        " Creation of prototypes to visualize a new test system application software",
-        "Creation of an installation program (inno Script Studio) for  current test system software",
-      ],
-      stacks: [
-        "C-Sharp",
-        "Git",
-      ],
-      tools: ["Github", "Visual Studio 2022"],
-    },
-    {
       dat: "july 2023 - September 2023",
       text: "Project: Implementation of an Issue Tracking System ",
       place: "Fürth ,Germany",
       toDo: [
-        " Designed and implemented a scalable architecture for the Issue Tracking System.",
-        "Utilized JSON format for data interchangeability.",
+        "CRUD operations for issues ",
+        " implemented a scalable architecture for the Issue Tracking System.",
+        "JSON data persistence.",
         "Developed a user-friendly console interface for system interaction.",
-        "Ensured the system could categorize and persist issues effectively",
+        
       ],
       stacks: [
         "Java",
@@ -52,56 +19,29 @@ export const data = [
     },
     {
       dat: "October 2023 - December 2023",
-      text: "Project: Enhancement and Extension of the Billing System for Company: NedFligs",
+      text: "In this project, I deepened my knowledge of billing system design by studying Chapter 1 of Martin Fowler's book. This research enabled me to:\n- Understand fundamental billing architecture principles\n- Implement improvements to the existing system\n- Develop new pricing features",
       place: " Fürth, Germany",
       toDo: [
-        "Wrote unit tests for each non-private method using JUnit, ensuring high test coverage",
-        "Used Mockito and specific test classes to isolate tests",
-        "Adding new features to the existing system with complete documentation and tests",
-       "Ensuring the quality and reliability of the system through thorough reviews and revisions",
+        "Increased test coverage from 50% to 85%",
+        "Implemented integration tests for critical workflows",
+        "Refactored code for improved testability"
         
       ],
       stacks: [
         "Java",
         "Git",
-        "JUnit"
+        "JUnit 5",
+        "Mockito"
       ],
       tools: ["Github", "Intellij", "Gradle"],
-      note: [
-        
-        "Integration & Unit test ",
-        "Mockito", "javaDoc",
-      ],
     },
+    
     {
-      dat: "Januar 2024 - May 2024",
-      text: "Project: Building a Java REST API without any Framework ",
-      place: "Fürth, Germany ",
-      toDo: [
-        "Developed a REST API without using any frameworks like Spring.",
-        "Design a DTOs",
-        "Implemented the API according to JAX-RS specifications",
-        "Utilized JAX-RS for defining RESTful web services"
-      ],
-
-
-
-
-      stacks: [
-        "JAX-RS",
-        "Java",
-        "JAXB"
-        
-      ],
-      tools: ["Github", "Intellij", "Gradle","Insomnia","Jackson for JSON processing"],
-    },
-
-    {
-        dat: "June 2024 - july 2024",
+        dat:"May 2024 - June 2024", 
         text: "Building  a CV with ReactJs",
         place: "Fürth, Germany",
         toDo: [
-         
+        
           
         ],
         stacks: [
@@ -116,7 +56,57 @@ export const data = [
           "VS-Code",
         ],
       },
-   
+
+
+      {
+        dat: "January 2025 - March 2025",
+        text: "Millisecond latency election monitoring system from ingestion to visualization",
+        place: "Fürth, Germany ",
+        toDo: [
+          "Ingestion: Kafka Producers (Python) → Votes/topic .",
+          " Processing: Spark Structured Streaming",
+          "Storage: PostgreSQL → Résultats historiques ",
+          "Visualization: Dashboard"
+        ],
+
+
+        stacks: [
+          "Apache Kafka",
+          "python",
+          "Pyspark",
+          "Spark Structured Streaming",
+          "PostgreSQL",
+          "Gitaction"
+          
+        ],
+        tools: ["Github", "Docker"],
+      },
+
+
+
+      {
+        dat: "April 2025 - May 2025",
+        text: "End-to-end data pipeline scraping Lidl's catalog ➞ Optimized storage & processing",
+        place: "Fürth, Germany ",
+        toDo: [
+          "Web Scraper extracting products by category ",
+          "Processing: Cleaning and normalization with Databricks (Delta Live Tables)",
+          "Lakehouse: Version management via Delta Lake for historization ",
+        ],
+
+
+        stacks: [
+          "Apache Spark",
+          "python",
+          "Pyspark",
+          "Microsoft Azure Data Lake",
+          "Databricks Delta"
+          
+        ],
+        tools: ["Github", "Databricks","Microsoft Azure Cloud"],
+      },
+
+ 
     
   ];
   
