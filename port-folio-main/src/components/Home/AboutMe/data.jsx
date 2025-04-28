@@ -46,11 +46,9 @@ export const data = [
         ],
         stacks: [
           "ReactJS",
-          "Styled-components",
           "Bootstrap",
           "JavaScript",
-          "CSS",
-          "vite",
+  
         ],
         tools: [
           "VS-Code",
